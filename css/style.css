@@ -1,0 +1,225 @@
+:root {
+  /* fonts */
+  --fonts-main: "Roboto", sans-serif;
+  --fonts-logo: "Raleway", sans-serif;
+  /* text colors */
+  --text-main-cl: #212121;
+  --text-second-cl: #757575;
+  --text-accent-cl: #2196f3;
+  --text-white-cl: #ffffff;
+  --text-nav-cl: #000000;
+  --footer-mail-phone-cl: rgba(255, 255, 255, 0.6);
+  --btn-hover: #188ce8;
+  /* bg colors */
+  --dark-bg-cl: #2f303a;
+  --light-bg-cl: #f5f4fa;
+  /* others */
+}
+
+body {
+  font-family: var(--fonts-main);
+  color: var(--text-main-cl);
+}
+
+/* reser styles */
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.list {
+  list-style: none;
+}
+
+/* base style */
+.btn {
+  font-family: inherit;
+  background-color: var(--text-accent-cl);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--text-white-cl);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--btn-hover);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* footer */
+
+.footer {
+  background-color: var(--dark-bg-cl);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+}
+
+.footer-logo {
+  font-family: var(--fonts-logo);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: var(--text-white-cl);
+}
+
+.footer-logo > span {
+  color: var(--text-accent-cl);
+}
+
+.footer-address {
+  font-style: normal;
+  color: var(--text-white-cl);
+}
+
+.footer-contact {
+  color: var(--footer-mail-phone-cl);
+}
+
+.footer-contact:focus,
+.footer-contact:hover {
+  color: var(--text-white-cl);
+}
+
+/* header */
+
+.header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+}
+.header-logo {
+  font-family: var(--fonts-logo);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: var(--text-nav-cl);
+}
+
+.header-logo > span {
+  color: var(--text-accent-cl);
+}
+
+.header-link {
+  color: var(--text-nav-cl);
+}
+
+.header-link:focus,
+.header-link:hover,
+.header-link-current,
+.header-contacts:focus,
+.header-contacts:hover {
+  color: var(--text-accent-cl);
+}
+
+.header-contacts {
+  color: var(--text-second-cl);
+}
+
+/* PAGE STUDIA */
+
+/* section hero  */
+
+.hero {
+  background-color: var(--dark-bg-cl);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-white-cl);
+}
+
+/* section features */
+
+.feature-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.feature-desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--text-second-cl);
+}
+
+/* Our team */
+
+.team {
+  background-color: var(--light-bg-cl);
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  letter-spacing: 0.03em;
+}
+
+.team-post {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  letter-spacing: 0.03em;
+  color: var(--text-second-cl);
+}
+
+/* PAGE PORTFOLIO */
+.portfolio-filter-btn {
+  font-family: inherit;
+  color: inherit;
+  background-color: var(--light-bg-cl);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-filter-btn-activ,
+.portfolio-filter-btn:hover,
+.portfolio-filter-btn:focus {
+  background-color: var(--text-accent-cl);
+  color: var(--text-white-cl);
+}
+
+.products-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+}
+
+.products-direction {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
+  color: var(--text-second-cl);
+}

@@ -289,7 +289,7 @@ p {
 
 .footer-logo {
   display: block;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   font-family: var(--fonts-logo);
   font-weight: 700;
   font-size: 26px;
@@ -300,10 +300,6 @@ p {
 
 .footer-logo > span {
   color: var(--text-accent-cl);
-}
-
-.footer-address-contact {
-  width: 231px;
 }
 
 .footer-address {
